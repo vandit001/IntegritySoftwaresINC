@@ -1,0 +1,185 @@
+﻿@{
+    ViewBag.Title = "Contact Us";
+    ViewBag.canonical = IntegrityWeb.Constant.SiteConfigration.webURL + "/contactus";
+}
+
+<main class="site-main">
+
+    <!-- Page Banner -->
+    <div class="page-banner">
+        <!-- Container -->
+        <div class="container">
+            <h3>Contact <span>Us</span></h3>
+        </div><!-- Container /- -->
+    </div><!-- Page Banner /- -->
+    <!-- Contact content -->
+    <div class="sp-60 sb-60 contact-content">
+        <!-- Container -->
+        <div class="container">
+            <!-- Row -->
+            <div class="row">
+                <div class="col-md-8 col-sm-12 col-xs-12 contact-form">
+                    <div class="section-header">
+                        <h3>Let’s <span>Talk</span></h3>
+                        <p>We will get back to you within in 24 hours.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" class="form-control" placeholder="Name *" name="contact-name" id="input_conname" />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="email" class="form-control" placeholder="Email *" name="contact-email" id="input_conemail" required />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="text" class="form-control" placeholder="Company Name" name="contact-website" id="input_concompany" />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="tel" class="form-control" placeholder="Phone Number *" name="contact-website" id="input_conphone" required />
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <select id="inputconBudget" class="form-control" required>
+                                <option selected>Select Your budet</option>
+                                <option>Less than 10000 USD</option>
+                                <option>10000USD - 20000 USD</option>
+                                <option>20000 USD - 30000 USD</option>
+                                <option>30000 USD - 40000 USD</option>
+                                <option>40000 USD - 50000 USD</option>
+                                <option>Greater than 50000 USD</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <textarea class="form-control" placeholder="Message" maxlength="500" name="textarea-message" id="textarea_message"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button id="btn_contactsubmit" name="submit" class="btn_default"><i class="fa fa-paper-plane"></i>Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="contact-detail">
+                        <div class="section-header">
+                            <h3>Contact <span>Details</span></h3>
+                            <p>Reach us following location.</p>
+                        </div>
+                        <div class="detail-box">
+                            <i class="fa fa-phone"></i>
+                            <p><a href="tel:@IntegrityWeb.Constant.SiteConfigration.ContactNo">@IntegrityWeb.Constant.SiteConfigration.ContactNo</a></p>
+                        </div>
+                        <div class="detail-box">
+                            <i class="fa fa-home"></i>
+                            <p>@IntegrityWeb.Constant.SiteConfigration.Address1Line1 @IntegrityWeb.Constant.SiteConfigration.Address1Line2</p>
+                        </div>
+                        <div class="detail-box">
+                            <i class="fa fa-envelope"></i>
+                            <p><a href="mailto:@IntegrityWeb.Constant.SiteConfigration.ContactEmail">@IntegrityWeb.Constant.SiteConfigration.ContactEmail</a></p>
+                        </div>
+                        @*<ul>
+            <li><a href="@IntegrityWeb.Constant.SiteConfigration.LinkedINURL" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="@IntegrityWeb.Constant.SiteConfigration.FaceBookURL" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="@IntegrityWeb.Constant.SiteConfigration.InstagramURL" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>*@
+                        <ul>
+                            <li>
+                                <a target="_blank" href="@IntegrityWeb.Constant.SiteConfigration.FaceBookURL" title="Facebook">
+                                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="@IntegrityWeb.Constant.SiteConfigration.InstagramURL" title="Instagram">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="@IntegrityWeb.Constant.SiteConfigration.TwitterURL" title="Twitter">
+                                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="@IntegrityWeb.Constant.SiteConfigration.PinterestURL" title="Pinterest">
+                                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="@IntegrityWeb.Constant.SiteConfigration.LinkedINURL" title="Linkedin">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- Row /- -->
+        </div><!-- Container /- -->
+    </div><!-- Contact content /- -->
+    <!-- <div class="googlemap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.699787929175!2d-73.72136268415822!3d40.746630979328124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2626df0b48abb%3A0x1d3239cae243f744!2s74-10%20Little%20Neck%20Pkwy%2C%20Glen%20Oaks%2C%20NY%2011004%2C%20USA!5e0!3m2!1sen!2sin!4v1581572050724!5m2!1sen!2sin" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div> -->
+
+
+</main>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $("#btn_contactsubmit").unbind('click');
+            $("#btn_contactsubmit").bind('click', function () {
+
+                $("#loading").show();
+                var name = $('#input_conname').val();
+                var company = $('#input_concompany').val();
+                var email = $('#input_conemail').val();
+                var phone = $('#input_conphone').val();
+                var comments = $('#textarea_message').val();
+                var budget = $('#inputconBudget').val();
+                var isValid = true;
+                if (name == null || name == "") {
+                    $('#input_conname').css('border', '1px solid red');
+                    isValid = false;
+                }
+                else
+                    $('#input_conname').css('border', '');
+
+                if (email == null || email == "" || !validateEmail(email)) {
+                    $('#input_conemail').css('border', '1px solid red');
+                    isValid = false;
+                }
+                else
+                    $('#input_conemail').css('border', '');
+
+                if (phone == null || phone == "" || !$.isNumeric(phone)) {
+                    $('#input_conphone').css('border', '1px solid red');
+                    isValid = false;
+                }
+                else
+                    $('#input_conphone').css('border', '');
+
+                if (isValid) {
+                    $.ajax({
+                        type: "POST",
+                        url: "/ContactUs/SendEmail",
+                        contentType: "application/json; charset=utf-8",
+                        data: '{ "name": "' + name + '", "company": "' + company + '", "email": "' + email + '", "phone": "' + phone + '", "budget": "' + budget + '", "comments": "' + comments + '" }',
+                        dataType: "json",
+                        success: function (data) {
+                            //if (!alert(data)) {
+                            //    window.location.reload();
+                            //}
+                            //else {
+                            //    window.location.reload();
+                            //}
+                            window.location = '@Url.Action("index", "Thankyou")';
+                        },
+                        error: function () { $("#loading").hide();alert("Opps.. Something went wrong. Please Try again Later "); }
+                    });
+                } else {
+                    $("#loading").hide();
+                }
+            });
+
+            function validateEmail(email) {
+  var emailReg = /^([\w-\.]+@@([\w-]+\.)+[\w-]{2,4})?$/;
+  return emailReg.test(email);
+}
+        });
+    </script>
+}

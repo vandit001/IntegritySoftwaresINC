@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "ThankYou";
+    ViewBag.canonical = IntegrityWeb.Constant.SiteConfigration.webURL + "/thankyou";
+}
+<main class="site-main">   
+    <!-- About Section -->
+    <div class="sp-60 about-section">
+        <!-- Container -->
+        <div class="container">
+            <!-- Row -->
+            <div class="row">
+                <div class="col-md-12 about-content col-sm-12">
+                    <div style="position: relative;top: 60px;">
+                        <div class="jumbotron text-center" style="background: transparent;">
+                            <h1 class="display-3">Thank You!</h1>
+                            <p class="lead"><strong>Please check your email</strong> for further instructions.</p>
+                            <hr>
+                            <p>
+                                Having trouble? <a href="@Url.Action("Index", "ContactUs")">Contact us</a>
+                            </p>
+                            <p class="lead">
+                                <a class="btn btn-primary btn-sm" href="@Url.Action("Index", "Home")" role="button">Continue to homepage</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Row -->
+        </div><!-- Container /- -->
+    </div><!-- About Section /- -->
+
+
+
+
+</main>

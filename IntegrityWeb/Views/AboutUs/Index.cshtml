@@ -1,0 +1,225 @@
+﻿@{
+    ViewBag.Title = "About Us";
+    ViewBag.canonical = IntegrityWeb.Constant.SiteConfigration.webURL+ "/aboutus";
+}
+
+<main class="site-main">
+
+    <!-- Page Banner -->
+    <div class="page-banner">
+        <!-- Container -->
+        <div class="container">
+            <h3>about <span>us</span></h3>
+        </div><!-- Container /- -->
+    </div><!-- Page Banner /- -->
+    <!-- About Section -->
+    <div class="sp-60 about-section">
+        <!-- Container -->
+        <div class="container">
+            <!-- Row -->
+            <div class="row">
+                <div class="col-md-7 about-content col-sm-12">
+                    <!-- Section Header -->
+                    <div class="section-header">
+                        <h3>Our <span>Story</span></h3>
+                        <p>
+                            <b>@IntegrityWeb.Constant.SiteConfigration.Name </b>
+                            is a New York based software development firm founded in the year 2019. Located in Glen Oaks,
+                            we are the pioneer of digital solutions. Our prime purpose is to diversify
+                            your business needs into software solutions. The constant thrive for innovative
+                            solutions in the product development states our strong affirmation into client’s
+                            satisfaction. Here’s why we claim ourselves the best:
+                        </p>
+                        <div style="text-align:left;margin-left:25px">
+                            <ul>
+                                <li><p>We have team of experts that personifies your trade goals into reality with all the dedication and hard work. </p></li>
+                                <li><p>Although we have various professionals, all expertise in their own respective field, we work as a “single team” for a project. It not only eases our co-ordination, but also improves our communication among ourselves and to our clients. </p></li>
+                                <li><p>All our packages are budget friendly. </p></li>
+                                <li><p>We never compromise with the quality of the product. </p></li>
+                                <li><p>Testing and quality assurance is the integral part of our development process that makes sure we deliver the excellence only.  </p></li>
+                            </ul>
+                        </div>
+                    </div><!-- Section Header /- -->
+                </div>
+                <div class="col-md-5 abt-img col-sm-12">
+                    <img src="~/images/board-of-directors.jpg" alt="About" />
+                </div>
+            </div><!-- Row -->
+        </div><!-- Container /- -->
+    </div><!-- About Section /- -->
+
+    <div class="services-section sp-60 sb-60 services-style-1">
+        <!-- Container -->
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center sb-30">
+                <h3>Our <span>Process</span></h3>
+            </div><!-- Section Header /- -->
+            <!-- Row -->
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <div class="srv-box">
+                        <i>01</i>
+                        <h3>Planning and Requirement Analysis</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <div class="srv-box">
+                        <i>02</i>
+                        <h3>Defining Requirements</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <div class="srv-box">
+                        <i>03</i>
+                        <h3>Designing the product architecture</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <div class="srv-box">
+                        <i>04</i>
+                        <h3>Building or Developing the Product</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <div class="srv-box">
+                        <i>05</i>
+                        <h3>Testing the Product</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <div class="srv-box">
+                        <i>06</i>
+                        <h3>Deployment and Maintenance</h3>
+                    </div>
+                </div>
+            </div><!-- Row /- -->
+        </div><!-- Container /- -->
+    </div>
+
+    
+    <div class="testimonial-section style-2 sb-60 sp-60">
+        <div class="testimonial-img">
+            @*<img srcset="~/images/about-1.jpg,  ~/images/about-1.webp"
+                alt="testimonial">*@
+
+            <picture>
+                <source type="image/webp" srcset="~/images/about-1.webp">
+                <source type="image/jpeg" srcset="~/images/about-1.jpg">
+                <img src="~/images/about-1.jpg" alt="testimonial">
+            </picture>
+            @*<img src="~/images/about-1.jpg" alt="testimonial" />*@
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-xs-12">
+                </div>
+                <div class="col-md-7 col-xs-12">
+                    <!-- Section Header -->
+                    <div class="section-header">
+                        <h3>Life at <span>Integrity Softwares Inc.</span></h3>
+                        <p>
+                            Employing the best professionals doesn’t excel you.
+                            Instead, it is the fundamental responsibility of the administrator to provide comfortable environment
+                            to his team members. Keeping these key values in mind, we provide flexible timings,
+                            competent pay and work-friendly ambience to our valuable employers. These virtues help us to attain
+                            long term benefits for our employees as well as customers.  Additionally, we are happy being diversified.
+                            We take the diversity of clients and our team members as a boon that brings us together on a single platform
+                            and gives us chance to exchange our ideas in a flourishing manner. This leads us to top notch of innovation
+                            and growth. We believe in individual as well as team growth, thus accept failure same as success. At Integrity,
+                            we appreciate the employer’s constant efforts to be the best.
+                            It helps in expanding their skills and knowledge that ultimately benefits the whole firm.
+                        </p>
+                    </div><!-- Section Header /- -->
+                </div>
+            </div>
+        </div><!-- Container /- -->
+
+    </div><!-- Testimonials Section /- -->
+    <!-- calltoaction-section -->
+    <section class="calltoaction-section sp-60 sb-60">
+        <div class="container">
+            <div class="section-header text-center">
+                <h3>Ready To Discuss Your Project?</h3>
+                <p>There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most.</p>
+                <a href="@Url.Action("Index", "ContactUs")" class="btn_default"><i class="fa fa-check" aria-hidden="true"></i>Let's GO</a>
+            </div>
+        </div>
+    </section><!-- calltoaction-section /- -->
+    <div class="services-section sp-60 sb-60 services-style-1">
+        <!-- Container -->
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center sb-30">
+                <h3>Introduction</h3>
+            </div><!-- Section Header /- -->
+            <!-- Row -->
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="section-header">
+                        <P>
+                            We are full-fledged digital services provider with the easy to operate framework.
+                            In these fast changing trends, the need of maintaining the quality is really getting
+                            tougher by each passing day. We try to adopt the changes throughout the whole development
+                            lifecycle as much as possible. We have a team of experts that work across all the technology
+                            and platforms. We bet you won’t get the cost effective and best quality services both at the
+                            same time. Give us a try.
+                        </P>
+
+                    </div>
+                </div>
+
+            </div><!-- Row /- -->
+        </div><!-- Container /- -->
+    </div>
+    <div class="testimonial-section sb-60 sp-60">
+        <!-- Container -->
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center sb-30">
+                <h3>Staff augmentation</h3>
+            </div><!-- Section Header /- -->
+            <!-- Row -->
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="section-header">
+                        <P>
+                            We understand the critical situation the world is going through.
+                            In the time of pandemic, the shortage of the staff is widely expected but
+                            can’t afford to be accepted.  We offer you the facility to augment your
+                            team whenever required. Our experts will evaluate your requirements
+                            thoroughly and tailor the plan according to your needs. We also assist
+                            you to locate your team in this pandemic time through our internal guidelines address.
+                        </P>
+
+                    </div>
+                </div>
+
+            </div><!-- Row /- -->
+        </div><!-- Container /- -->
+    </div>
+    <div class="testimonial-section style-2 sb-60 sp-60">
+        <!-- Container -->
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center sb-30">
+                <h3>Web Applications Development Services</h3>
+            </div><!-- Section Header /- -->
+            <!-- Row -->
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="section-header">
+                        <P>
+                            We develop customized web applications for various niches with all the recent
+                            technologies. Our aim is to expand your customer class.
+                            For that, we use certain digital marketing techniques like B2B,
+                            B2C to meet your requirements.
+                        </P>
+
+                    </div>
+                </div>
+
+            </div><!-- Row /- -->
+        </div><!-- Container /- -->
+    </div>
+</main>

@@ -1,0 +1,94 @@
+﻿<!-- Header Block /- -->
+<header class="header-block">
+    <div class="container">
+        <div class="topheader">
+            <ul class="header-top">
+                <li><a href="tel:@IntegrityWeb.Constant.SiteConfigration.ContactNo"><i class="fa fa-phone-square sitecolor" aria-hidden="true"></i><span> @IntegrityWeb.Constant.SiteConfigration.ContactNo</span></a></li>
+                <li><a href="mailto:@IntegrityWeb.Constant.SiteConfigration.ContactEmail"><i class="fa fa-envelope" aria-hidden="true"></i><span>@IntegrityWeb.Constant.SiteConfigration.ContactEmail</span></a></li>
+                <li><a href="skype:Integritysoftwaresinc?chat"><i class="fa fa-skype" aria-hidden="true"></i><span>Integritysoftwaresinc</span></a></li>
+            </ul>
+            <button type="button" class="btn_default btn_schedulemeeting" data-toggle="modal" data-target="#schedulemeeting"><i class="fa fa-calendar" aria-hidden="true"></i><span>Schedule Meeting</span></button>
+       
+        
+        
+        
+        </div>
+        <div class="headerbox">
+            <div class="logobox">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                    @*<img src="~/images/logo.png" alt="logo" />*@
+                    <picture>
+                        <source type="image/webp" srcset="~/images/logo.webp">
+                        <source type="image/jpeg" srcset="~/images/logo.jpg">
+                        <img src="~/images/logo.png" alt="logo" />
+                    </picture>
+                </a>
+            </div>
+            <div class="menubox">
+
+                <div class="switchbox">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#wtnavigation" aria-controls="wtnavigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="menuline bar1"></span>
+                        <span class="menuline bar2"></span>
+                    </button>
+                </div>
+                <nav class="menunavigation navbar-expand-lg">
+                    <div class="collapse navbar-collapse" id="wtnavigation">
+                        <ul class="navbar-nav">
+                            <li><a class="nav-link" href="@Url.Action("Index", "AboutUs")">About Us</a></li>
+                            <li><a class="nav-link" href="@Url.Action("Index", "Services")">Services</a></li>
+                            <li><a class="nav-link" href="@Url.Action("Index", "Portfolio")">Portfolio</a></li>
+                            <!-- <li><a class="nav-link" href="@Url.Action("Index", "Career")">Career</a></li> -->
+                            <li><a class="nav-link" href="@Url.Action("Index", "ContactUs")">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Get Quote Form -->
+<div class="modal fade bd-example-modal-lg" id="schedulemeeting" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document" style="max-width: 500px;">
+        <div class="modal-content"  style="height: 550px;">
+            @*<div class="modal-header">
+                <div class="pagebanner-contentbox">
+                    <h3>Schedule Meeting</h3>
+                </div>
+                
+            </div>*@
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+                @*<div class="contactform-section">
+            <div class="contactform">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Name *" id="input_name" required>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="email" placeholder="Email *" id="input_email" required>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="tel" placeholder="Phone *" id="input_phone" required />
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                        </div>
+                        <input type='text' class="form-control" id='datetimepicker1' placeholder="Select Date & Time *" required />
+                    </div>
+                </div>
+                <button id="btn_submit" name="submit" class="btn_default"><i class="fa fa-paper-plane" aria-hidden="true"></i>Schedule</button>
+            </div>
+        </div>*@
+                <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" id="caln" style="height: 475px;"></div>
+                <!-- Calendly inline widget end -->
+            </div>
+        </div>
+    </div>
+</div>
+

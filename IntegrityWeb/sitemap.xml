@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>http://www.integritysoftwaresinc.com/</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/aboutus</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/portfolio</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/contactus</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/privacypolicy</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/CSharp</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/sqlserver</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/android</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/ios</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/java</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/angularjs</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/php</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/vbnet</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/excelautomation</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/react</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/vuejs</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/awsservices</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/laravel</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/knockoutjs</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.integritysoftwaresinc.com/services/python</loc>
+  <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+  
+  <url>
+    <loc>http://www.integritysoftwaresinc.com/services/branding</loc>
+    <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>http://www.integritysoftwaresinc.com/services/digitalmarketing</loc>
+    <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>http://www.integritysoftwaresinc.com/services/logodesigning</loc>
+    <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>http://www.integritysoftwaresinc.com/services/payperclick</loc>
+    <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>http://www.integritysoftwaresinc.com/services/seo</loc>
+    <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>http://www.integritysoftwaresinc.com/services/socialmediamarketing</loc>
+    <lastmod>2020-11-21T12:58:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+</urlset>

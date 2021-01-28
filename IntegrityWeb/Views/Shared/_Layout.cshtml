@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="@ViewBag.description" />
+    <link rel="canonical" href="@ViewBag.canonical" />
+    <meta name="keywords" content="SOFTWARE DEVELOPMENT, AFFORDABLE DEVELOPMENT, BEST DEVELOPERS, EFFICIENT DEVELOPMENT, DEVELOPERS IN US, DEVELOPERS IN INDIA, INTEGRITY SOFTWARES, INTEGRITY, SOFTWARE, ANDROID DEVELOPMENT, ANDROID DEVELOPERS, IOS DEVELOPMENT IOS DEVELOPERS, WEB DEVELOPMENT, WEB DEVELOPERS, EXCEL WORK, EXCEL DEVELOPERS, PHP DEVELOPMENT, .NET DEVELOPMENT, .NET DEVELOPERS, JAVA DEVELOPMENTS, JAVA DEVELOPERS, FRONT END DESIGNERS, FRONT END DEVELOPERS, FRONT END DEVELOPMENT, INTEGRITY SOFTWARES INC., INTEGRITY SOFTWARES US, SOFTWARE COMPANY IN US, ABOUT INTEGRITY SOFTWARES" />
+    <meta name="author" content="">
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+
+    <link rel="preload" href="/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Catamaran-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Catamaran-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Catamaran-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Catamaran-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Catamaran-Black.woff2" as="font" type="font/woff2" crossorigin>
+  
+    @Styles.Render("~/Content/FrontCss")
+
+
+   
+</head>
+<body>
+    <div id="back2top"><i class="fa fa-angle-up"></i></div>
+    <div id="loading">
+        <div class="loader"></div>
+    </div>
+    @Html.Partial("_Header")
+
+    <div class="">
+        @RenderBody()
+    </div>
+
+    @Html.Partial("_Footer")
+
+  
+    @Scripts.Render("~/Scripts/Frontjs")
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>
+
+
